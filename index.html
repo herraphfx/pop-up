@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        display: block;
+        margin: 20px auto;
+        background: crimson;
+        color: white;
+        border: 0;
+        padding: 6px 10px;
+      }
+      .popup-wrapper {
+        background: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+      }
+
+      .popup {
+        font-family: arial;
+        text-align: center;
+        width: 100%;
+        max-width: 300px;
+        margin: 10% auto;
+        padding: 20px;
+        background: white;
+        position: relative;
+      }
+
+      .popup a {
+        background: crimson;
+        color: white;
+        text-decoration: none;
+        padding: 6px 10px;
+      }
+
+      .popup-close {
+        position: absolute;
+        top: 5px;
+        right: 8px;
+        cursor: pointer;
+      }
+    </style>
+    /*
+    <!-- <style>
+      li {
+        list-style-type: none;
+        max-width: 200px;
+        padding: 8px;
+        margin: 8px;
+        background: #eeeeee;
+        border: 1px dotted #dddddd;
+      }
+
+      .box{
+        width:200px
+        height:200px;
+        margin: 10px 0;
+        background: #eeeeee;
+        text-align: center;
+        padding: 20px;
+
+
+      }
+    </style> -->
+    */
+  </head>
+  <body>
+    <button>Click Me</button>
+
+    <div class="popup-wrapper">
+      <div class="popup">
+        <div class="popup-close">x</div>
+        <div class="popup-content">
+          <h2>NINJAS SALE</h2>
+          <p>50% off on all ninja clothing</p>
+          <a href="#">view clothing</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <h1 id="page-title" style="color: orange;">The DOM</h1>
+    <a href="https://www.google.com">Link something cool</a>
+    <p class="copy-me">lorem ipsum dolor</p>
+    <div class="box">move the mouse around</div>
+
+    <p>lorem ipsum dolor sit amet consectet</p>
+    <p>lorem ipsum dolor sit amet consectet</p>
+    <p>lorem ipsum dolor sit amet consectet</p>
+    <p>lorem ipsum dolor sit amet consectet</p>
+    <p>lorem ipsum dolor sit amet consectet</p>
+    <p>lorem ipsum dolor sit amet consectet</p>
+    <p>lorem ipsum dolor sit amet consectet</p>
+    <ul>
+      <li>buy milk</li>
+      <li>read a book</li>
+      <li>play the guitar</li>
+      <li>jump a bit</li>
+    </ul>
+    <button>Click Me</button>
+
+    <div>
+      <p>hello, world</p>
+      <p class="error">this is an error</p>
+      <h1>hello world</h1>
+      <ul class="people">
+        group of people
+      </ul>
+    </div>
+
+    <article>
+      <h2>article title</h2>
+      <p>lorem ipsum sit</p>
+      <p>lorem ipsum sit</p>
+      <p>lorem ipsum sit</p>
+      <div>witten by henry</div>
+    </article>
+
+    <div class="content">this is the content</div> -->
+    <script src="popup.js"></script>
+  </body>
+</html>
